@@ -1,0 +1,84 @@
+.pheading{
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.themecolor{
+   color: #B49C73;
+}
+
+.ppara{
+    font-size: 1.4rem;
+    color: #dcdcdc;
+}
+
+.pbtn{
+    color: #FFFFFF;
+    background-color: #B49C73;
+    padding: 1rem;
+    border-radius: 3rem;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.pbtn:hover{
+    background-color: #a48e69;
+}
+
+#Navbar{
+    display: flex;
+    flex-direction: row;
+    
+}
+#Navbar-Section::before{
+    content: "";
+    background: url('images/bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    opacity: .8;
+    filter: brightness(70%);
+}
+#nav-right{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#nav-left{
+    width: 30%;
+    margin-left: 5rem;
+}
+
+#nav-list{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    list-style: none;
+}
+.nav-item{
+    margin: 0 2.5rem;
+    cursor: pointer;
+}
+.nav-item:hover{
+   color: #B49C73;
+}
+#logo{
+    height: 6rem;
+   
+}
+
+#banner-right{
+    display: inline-block;
+    width: 50%;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    color: #FFFFFF;
+}
