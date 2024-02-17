@@ -1,6 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
 .pheading{
     font-size: 4rem;
     font-weight: 300;
+    margin: 2rem 0;
 }
 
 .themecolor{
@@ -10,6 +15,7 @@
 .ppara{
     font-size: 1.4rem;
     color: #dcdcdc;
+    margin: 2rem 0;
 }
 
 .pbtn{
@@ -18,7 +24,7 @@
     padding: 1rem;
     border-radius: 3rem;
     border: none;
-    font-size: 1.4rem;
+    font-size: 1rem;
     cursor: pointer;
 }
 .pbtn:hover{
@@ -30,6 +36,9 @@
     flex-direction: row;
     
 }
+#Navbar-Section{
+    height: 100vh;
+}
 #Navbar-Section::before{
     content: "";
     background: url('images/bg.jpg') no-repeat center center/cover;
@@ -37,10 +46,10 @@
     top: 0px;
     left: 0px;
     z-index: -1;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
-    opacity: .8;
-    filter: brightness(70%);
+    opacity: .9;
+    filter: brightness(50%);
 }
 #nav-right{
     width: 70%;
@@ -75,10 +84,16 @@
 }
 
 #banner-right{
-    display: inline-block;
+    display: block;
     width: 50%;
+   
     float: right;
     margin-right: 5rem;
     margin-top: 5rem;
     color: #FFFFFF;
+}
+
+.Practice-Area-Section{
+    background-color: red;
+    padding: 1rem;
 }
