@@ -15,7 +15,7 @@ body{
 
 .subheading{
     color: #FFFFFF;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 
 }
 
@@ -157,3 +157,65 @@ body{
 .box{
   width: 100%;
 }
+
+/* Expertise Section  */
+
+#expertise{
+    padding: 5rem;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox{
+    background-color: #FFFFFF;
+    margin: 1rem;
+    padding: 3rem;
+    border-radius: .6rem;
+    height: 45vh;
+    cursor: pointer;
+
+}
+
+/* Contact Section  */
+#Contact-Section::before{
+    content: "";
+    background: url('images/bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    /* top: 0px; */
+    left: 0px;
+    z-index: -1;
+    width: 99vw;
+    height: 40vh;
+    opacity: .9;
+    filter: brightness(50%);
+}
+
+#contact{
+    text-align: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+/* Signp-Section */
+
+#signup{
+    padding: 5rem;
+    text-align: center;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* width: 50%; */
+    justify-content: center;
+    /* grid-gap: 1rem; */
+}
+.input-box{
+    padding: .5rem;
+    width: 100%;
+    
+}
+
