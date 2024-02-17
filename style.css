@@ -1,11 +1,20 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: #323232;
+}
 
+/* Constants  */
 .pheading{
     font-size: 4rem;
     font-weight: 300;
     margin: 2rem 0;
+}
+
+.subheading{
+    color: #FFFFFF;
+
 }
 
 .themecolor{
@@ -14,7 +23,7 @@
 
 .ppara{
     font-size: 1.4rem;
-    color: #dcdcdc;
+    color: rgb(174, 167, 167);
     margin: 2rem 0;
 }
 
@@ -26,11 +35,13 @@
     border: none;
     font-size: 1rem;
     cursor: pointer;
+    width: 12rem;
 }
 .pbtn:hover{
     background-color: #a48e69;
 }
 
+/* Navbar Section  */
 #Navbar{
     display: flex;
     flex-direction: row;
@@ -83,6 +94,8 @@
    
 }
 
+
+/* Banner Section  */
 #banner-right{
     display: block;
     width: 50%;
@@ -96,4 +109,20 @@
 .Practice-Area-Section{
     background-color: red;
     padding: 1rem;
+}
+
+/* Our Practice Areas Section  */
+
+#practice-area{
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+   
+}
+
+.sec-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 5rem;
 }
