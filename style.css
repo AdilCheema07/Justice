@@ -8,13 +8,21 @@ body{
 /* Constants  */
 .pheading{
     font-size: 4rem;
-    font-weight: 300;
+    font-weight: 600;
     margin: 2rem 0;
+    color: #FFFFFF;
 }
 
 .subheading{
     color: #FFFFFF;
+    font-size: 1.5rem;
 
+}
+
+.plus-icon{
+    color: #FFFFFF;
+    margin-left: .5rem;
+    font-weight: 700;
 }
 
 .themecolor{
@@ -125,4 +133,27 @@ body{
     flex-direction: column;
     width: 50%;
     margin-right: 5rem;
+}
+
+/* Experience Section  */
+
+#experience{
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+}
+.sec-start{
+    width: 30%;
+}
+
+.sec-end{
+    margin-left: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
+
+.box{
+  width: 100%;
 }
