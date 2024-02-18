@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
     background-color: #323232;
@@ -103,6 +105,36 @@ body{
    
 }
 
+#mobile-nav{
+    text-align: center;
+}
+#mobile-list{
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.mobile-nav-item:hover{
+    cursor: pointer;
+    color: #B49C73;
+    padding: .5rem;
+}
+
+.mobile-nav-item{
+    background-color: #323232;
+    margin: auto;
+    width: 100%;
+    padding: .5rem;
+}
+
+.hamburger-icon{
+    text-align: right;
+    margin: 2rem;
+}
+.menu-icon{
+    font-size: 3rem;
+}
 
 
 /* Banner Section  */
@@ -227,7 +259,7 @@ body{
 /* Footer Section  */
 
 #Footer-Section{
-    padding: 5rem;
+    padding: 10rem;
     text-align: center;
 }
 
@@ -236,6 +268,7 @@ body{
     flex-direction: row;
     width: 90%;
     margin: 0 auto;
+    
 }
 
 .footer-box{
@@ -246,6 +279,7 @@ body{
 .footer-heading{
    color: #FFFFFF;
    font-size: 2.5rem;
+   margin: 2rem;
 }
 
 .footer-subheading{
@@ -253,6 +287,7 @@ body{
     color: #B49C73;
     font-weight: 300;
     cursor: pointer;
+    margin: 2rem;
 }
 
 .footer-subheading:hover {
