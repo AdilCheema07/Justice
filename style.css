@@ -196,6 +196,7 @@ body{
 #contact{
     text-align: center;
     justify-content: center;
+  
     padding: 5rem;
 }
 
@@ -204,18 +205,20 @@ body{
 #signup{
     padding: 5rem;
     text-align: center;
+    margin: 0 auto;
+    width: 50%;
 }
 
 .form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* width: 50%; */
-    justify-content: center;
+    justify-content: flex-end;
     grid-gap: 1rem;
 }
 .input-box{
     padding: .5rem;
     width: 100%;
-    
+    cursor: pointer;
+    border-radius: .7rem;
 }
 
