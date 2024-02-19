@@ -100,18 +100,35 @@ body{
 .nav-item:hover{
    color: #B49C73;
 }
-#logo{
+.logo{
     height: 6rem;
    
 }
 
 /* Hamburger Menu  */
 
+#MMenu{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 5rem;
+}
+
+#MMenu-left{
+    text-align: left;
+    width: 50%;
+}
+
+#MMenu-right{
+    text-align: right;
+    width: 50%;
+}
 #mobile-nav{
     text-align: center;
     display: none;
 }
 #mobile-list{
+    position: absolute;
+    z-index: 100;
     list-style: none;
     color: #FFFFFF;
     font-size: 2rem;
@@ -121,20 +138,23 @@ body{
 .mobile-nav-item:hover{
     cursor: pointer;
     color: #B49C73;
-    padding: .5rem;
 }
 
 .mobile-nav-item{
     background-color: #323232;
     margin: auto;
     width: 100%;
-    padding: .5rem;
+    padding: 2rem .5rem;
+    border: solid 2px black;
+    overflow: hidden;
 }
 
 .hamburger-icon{
     text-align: right;
     margin: 2rem;
     cursor: pointer;
+    width: 30%;
+    /* background-color: red; */
 }
 
 .menu-icon{
@@ -146,10 +166,9 @@ body{
 #banner-right{
     display: block;
     width: 50%;
-   
     float: right;
     margin-right: 5rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
     color: #FFFFFF;
 }
 
@@ -313,3 +332,120 @@ body{
     cursor: pointer;
 }
 
+@media only screen and (max-width: 1720px){
+    .footer-heading{
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 1390px){
+    #nav-list{
+        font-size: 1.2rem;
+    }
+    .nav-item{
+        margin: 0 1rem;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .flexbox{
+        height: 30vh;
+    }
+    #Footer-Section{
+        padding: 5rem;
+    }
+    .footer-heading{
+        font-size: 1.5rem;
+    }
+    .footer-subheading{
+        font-size: 1.3rem;
+    }
+    #Navbar-Section{
+        height: 60vh;
+    }
+    #Navbar-Section::before{
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    #Navbar{
+        display: none;
+    }
+    #mobile-nav{
+        display: block;
+    }
+    #banner-right{
+        width: 70%;
+    }
+    #Footer-Section{
+        padding: 1rem;
+    }
+    #practice-area{
+        flex-direction: column;
+        padding: 0rem 5rem;
+    }
+    .sec-left{
+        margin-bottom: 5rem;
+        width: 100%;
+    }
+    #experience{
+        flex-direction: column;
+    }
+    .sec-start{
+        width: 100%;
+    }
+    .sec-end{
+        margin: 0;
+    }
+    #signup{
+        width: 75%;
+    }
+    .form{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-heading{
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .pheading{
+        font-size: 3rem;
+    }
+    #Contact-Section::before{
+        height: 30vh;
+    }
+    #footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-box{
+        width: 100%;
+      
+    }
+    .footer-heading{
+        font-size: 2.5rem;
+    }
+    .footer-subheading{
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .pheading{
+        font-size: 2rem;
+    }.subheading{
+        font-size: 1.4rem;
+    }
+    #footer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-box{
+        text-align: center;
+    }
+    #sicons{
+        justify-content: center;
+    }
+}
