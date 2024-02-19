@@ -18,10 +18,12 @@
 </head>
 <body>
 
+    <!-- Hamburger Menu  -->
 <section id="mobile-nav">
-    <div class="hamburger-icon" onclick="toogleMobileNavbar()">
+    <div class="hamburger-icon" onclick="toggleMobileNavbar()">
         <i class="menu-icon fa-solid fa-bars fa-xl" style="color: #b49973;"></i>
     </div>
+    <div id="mobileNavbar" style="display: none;">
     <ul id="mobile-list">
                 <li class="mobile-nav-item">Home</li>
                 <li class="mobile-nav-item">Services</li>
@@ -29,8 +31,10 @@
                 <li class="mobile-nav-item">About Us</li>
                 <li class="mobile-nav-item">Contact Us</li>
     </ul>
+</div>
 </section>
 
+<!-- Navbar Section  -->
     <section id="Navbar-Section">
     <nav id="Navbar">
         <div id="nav-left">
@@ -314,5 +318,6 @@
     </div>
     <p class="ppara">Copyright ©2022 | All rights reserved | This template is made by Muhammad Adil</p>
 </footer>
+<script src="index.js"></script>
 </body>
 </html>
